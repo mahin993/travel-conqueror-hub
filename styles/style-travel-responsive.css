@@ -1,0 +1,120 @@
+/* Responsive Styles */
+
+/* Responsive for mobile or small devices */
+@media screen and (max-width: 600px) {
+  nav,
+  .items-container ul,
+  .travel-info,
+  .travel-input-field,
+  .tours-container,
+  .newsletter-container,
+  .destination-card,
+  .footer {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .nav-container h3,
+  .footer-title h3{
+    font-size: 20px;
+  }
+
+  .banner-container {
+    width: 100%;
+    gap: 25px;
+    padding: 0 15px;
+  }
+  
+  .banner-container .banner-title {
+    font-size: 40px;
+    margin-top: 10px;
+  }
+
+  .banner-container .banner-text{
+    padding: 0 10px;
+  }
+
+  .where-go, #when, #select-type, .travel-info button{
+    width: 20rem;
+    margin: 0;
+  }
+
+  .tours-content,
+  .tours-img{
+    width: 100%;
+  }
+
+  .tours-content,
+  .tours-container{
+    padding: 0 15px;
+  }
+
+  .destination-content,
+  .choose-content{
+    padding: 20px;
+  }
+
+  .destination-content .section-title{
+    font-size: 28px;
+  }
+  .destination-content{
+    margin: 0;
+  }
+  .destination-container{
+    margin-bottom: 0;
+  }
+  .img-container,
+  .choose-card{
+    display: block;
+    margin: 20px;
+  }
+
+  .choose-container{
+    margin: 20px;
+  }
+
+  .choose-content{
+    margin-bottom: 0;
+  }
+  .choose-card .card-3{
+    margin: 0;
+  }
+
+  .card-1, .card-2, .card-3{
+    margin-bottom: 16px;
+  }
+  .img-container img{
+    margin-bottom: 16px;
+    height: 220px;
+  }
+  .newsletter-form{
+    width: 90%;
+  }
+  .discount-offer img{
+    padding: 20px;
+  }
+  .discount{
+    width: 190px;
+    height: 100px;
+    border-radius: 16px;
+    transform: rotate(-22.628deg) translate(300px, -60%);
+    position: sticky;
+  }
+  .discount h3{
+    font-size: 22px;
+  }
+
+  .destination-card{
+    align-items: center;
+  }
+
+  .social-media-link{
+    margin-left: 0 auto;
+  }
+
+  .footer-content p{
+    margin: 30px;
+  }
+
+
+}

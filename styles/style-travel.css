@@ -1,0 +1,499 @@
+/* google fonts links */
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Mulish", sans-serif;
+}
+
+.section-title{
+  color: #131318;
+  font-size: 40px;
+  font-weight: 800;
+  margin-bottom: 24px;
+  text-transform: capitalize;
+}
+
+.text-description{
+  color: #131318b3;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.btn-primary,
+.discount p{
+  background: #FF5400;
+  border-radius: 8px;
+  color: #FFF;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 800;
+  padding: 15px 35px;
+  border: 0;
+  cursor: pointer;
+}
+
+/* header styles */
+
+.header{
+  max-width: 1170px;
+  margin: 50px auto 100px;
+}
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 60px;
+ 
+}
+.nav-container,
+.footer-title{
+  /* width: 50%; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+.nav-container img
+.footer-title img{
+  object-fit: cover;
+}
+
+.nav-container h3,
+.footer-title h3 {
+  color: #131318;
+  font-size: 36px;
+  font-weight: 800;
+}
+
+.special-text{
+  color: #FF5400;
+  margin-left: 10px;
+}
+
+.items-container{
+  width: 50%;
+}
+.items-container ul{
+ 
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.items-container ul > li{
+  list-style: none;
+}
+
+.items-container ul > li a{
+  text-decoration: none;
+  color: #424247;
+  font-size: 18px;
+  font-weight: 400; 
+}
+
+/* banner styles */
+.banner-container{
+  height: 500px;
+  background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, 
+                                            rgba(19, 19, 24, 0.00) 100%), 
+                                            url('../Images/group.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; 
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+  align-items: center;
+  width: 100%;
+}
+
+.banner-container .banner-title{
+  color: #FFF;
+  font-family: Mulish;
+  font-size: 64px;
+  font-weight: 800;
+  margin-top: 100px;
+  text-transform: capitalize;
+}
+
+.banner-container .banner-text{
+  color: #fff;
+  margin-top: 15px;
+  margin-bottom: 0;
+  padding: 0 240px;
+}
+
+.banner-content{
+  text-align: center;
+}
+
+.travel-info{
+  background: rgba(255, 255, 255, 0.30);
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+}
+
+.travel-input-field{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.where-go,
+#when,
+#select-type
+{
+  color: rgba(19, 19, 24, 0.50);
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 15px;
+  margin-right: 24px;
+  border: 0;
+  cursor: pointer;
+  outline: none;
+  text-align: left;
+  width: 10rem;
+}
+
+.travel-info button i{
+  margin-right: 20px;
+}
+
+/* main section style */
+main{
+  max-width: 1170px;
+  margin: 0 auto;
+}
+/* Tour Section styles */
+.tours-container{
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  gap: 30px;
+}
+
+.tours-content{
+  width: 50%;
+}
+
+.tours-content p{
+  margin: 24px 0;
+}
+
+.tours-content li{
+  margin: 16px;
+  text-align: left;
+}
+
+.tours-container .tours-img img{
+  width: 100%;
+}
+
+/* destination section styles */
+.destination-container{
+  margin: 100px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.destination-content{
+  text-align: center;
+  /* padding: 0 100px; */
+  margin-bottom: 48px;
+}
+.destination-content,
+.choose-content{
+  padding: 0 264px;
+}
+
+.img-container{
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 24px;
+}
+
+.img-container img{
+  width: 100%;
+  height: 100%;  
+  border-radius: 16px;
+}
+
+.img-container h3{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff; 
+  font-size: 28px;
+  font-weight: 800;
+  text-transform: capitalize;
+}
+
+.img-item-1{
+  grid-column: 1 / span 6;
+  position: relative;
+}
+.img-item-2{
+  grid-column: 7 / span 6;
+  position: relative;
+}
+.img-item-3{
+  grid-column: 1 / span 4;
+  position: relative;
+}
+.img-item-4{
+  grid-column: 5 / span 5;
+  position: relative;
+}
+.img-item-5{
+  grid-column: 10 / span 3;
+  position: relative;
+}
+.img-item-6{
+  grid-column: 1 / span 5;
+  position: relative;
+}
+.img-item-7{
+  grid-column: 6 / span 7;
+  position: relative;
+}
+
+/* Choose Section styles */
+.choose-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 100px 0;
+}
+
+.choose-content{
+  text-align: center;
+  margin-bottom: 48px;
+}
+.choose-card{
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 24px;
+}
+
+.card-1{
+  grid-column: 1 / span 3;
+  border: 1px solid #fbb56333;
+  background: #fbb5630d;
+}
+.card-2{
+  grid-column: 4 / span 6;
+  border: 1px solid #29cef633;
+  background: #29cef60d;
+}
+.card-3{
+  grid-column: 1 / span 6;
+  border: 1px solid #e9444433;
+  background: #e944440d;
+  margin: 0 260px;
+}
+
+.card-1,
+.card-2,
+.card-3{
+  border-radius: 16px;
+  padding: 32px;
+}
+
+.choose-card h4,
+.newsletter-container h4{
+  color: #131318;
+  font-size: 24px;
+  font-weight: 800;
+  margin: 25px 0;
+  text-transform: capitalize;
+}
+
+.choose-card p{
+  color:  #5a5a5e;
+}
+
+/* newsletter section styles */
+.newsletter-container{
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  gap: 24px;
+}
+.newsletter-container hr{
+  background: #ebebefd0;
+  width: 90%;
+  margin: 20px;
+}
+
+.newsletter-form{
+  width: 40%;
+  border-radius: 16px;
+  border: 1px solid #FF5400;
+  padding: 20px;
+  
+}
+
+.newsletter-form p{
+  margin: 0;
+}
+.newsletter-form form input[type=text],input[type=email] {
+  display: block;
+  width: 100%;
+  padding: 20px;
+  margin-bottom: 16px;
+  font-size: 16px;
+  border-radius: 8px;
+  background: #1313180d;
+  outline: 0;
+  border: 0;
+}
+.newsletter-form form input[type=button]{
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.discount-offer img{
+  width: 100%;
+}
+
+.discount{
+  width: 324px;
+  height: 120px;
+  border-radius: 16px;
+  background: #FF5400;
+  text-align: center;
+  transform: rotate(-22.628deg) translate(820px, 120%);
+}
+
+.discount h3{
+  color: #FFF;
+  font-size: 32px;
+  font-weight: 800;
+}
+
+/* footer section styles */
+.footer{
+  background: #1313180d;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 100px auto 0;
+}
+
+.footer-content{
+  text-align: center;
+  margin-top: 110px;
+  padding-bottom: 15px;
+}
+.footer-title{
+  width: 100%;
+}
+.footer-title h3{
+  margin-bottom: 16px;
+}
+
+.footer-title p{
+  padding: 0 330px;
+}
+
+.social-media-link{
+  display: flex;
+  gap: 20px;
+  margin-top: 32px;
+}
+
+.footer hr{
+  background: #ebebefd0;
+  width: 70%;
+  margin: 50px;
+}
+
+.copyright p{
+  color: #131318;
+  font-size: 16px;
+  margin-bottom: 110px;
+}
+
+
+
+/* Extra Section (destination section) styles */
+.top-destination {
+  background-color: #eee;
+  padding: 50px 0;
+  padding: 30px;
+}
+
+.destination-title {
+  text-align: center;
+}
+
+.destination-title h4 {
+  color: #131318;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.destination-title h2 {
+  color: #14183E;
+  font-size: 36px;
+  font-weight: 800;
+  margin-top: 15px;
+}
+
+.destination-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  gap: 50px;
+  margin-top: 30px;
+}
+
+.card-item { 
+  box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, .2);
+  border-radius: 30px;
+  /* padding: 20px; */
+  margin: 0 10px;
+}
+
+.card-item img {
+  width: 100%;
+  max-height: 400px; 
+  object-fit: cover;
+  border-radius: 30px 30px 0 0;
+}
+
+.destination-card .place {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10px;
+  margin-top: 10px;
+}
+
+.card-item i {
+  color: #14183E;
+}
+
+.card-item .place-name{
+  margin-bottom: 20px;
+}
+.card-item .days{
+  margin-bottom: 20px;
+  padding: 0 10px;
+}
+.card-item i{
+  margin-right: 20px;
+}
